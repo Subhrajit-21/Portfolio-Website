@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import english from "../../Assets/Projects/english.png";
 import wanderlust from "../../Assets/Projects/wanderlust.png";
 import weather from "../../Assets/Projects/weather.png";
+import Learntube from "../../Assets/Learntube.png"
+import Zerodha from "../../Assets/Zerodha.png"
+import faceconnect from "../../Assets/faceConnectica.png"
 
 function Projects() {
   return (
@@ -48,6 +51,36 @@ function Projects() {
               description="I developed this English Dictionary using Html,Css, Js.Search the word and Press Enter."
               ghLink="https://github.com/Subhrajit-14/English-Dictionary"
               demoLink="http://127.0.0.1:5500/English_Dictionary-master/English-Dictionary/index.html"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={faceconnect}
+              isBlog={false}
+              title="Face-Connectica_Video_Meeting"
+              description="Welcome to the Face Connectica project! This application is a real-time video conferencing app built using React and Socket.io. Dive into the world of seamless video communication and collaboration!"
+              ghLink="https://github.com/Subhrajit-14/Face-Connectica_Video_Meeting"
+              demoLink="https://face-connectica-video-meeting.vercel.app/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Zerodha}
+              isBlog={false}
+              title="Zerodha-Clone"
+              description="This project is a React-based web application for Zerodha, a comprehensive trading platform offering real-time stock market data, intuitive navigation, and advanced trading features."
+              ghLink="https://github.com/Subhrajit-14/Zerodha-Clone"
+              demoLink="https://zerodha-clone-frontend-vqjq.onrender.com/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Learntube}
+              isBlog={false}
+              title="LearnTube-Learning-Platform"
+              description="I developed a feature-rich mern-stack web application inspired by Learntube. The project is built using MongoDB, Express.js, and Node.js.."
+              ghLink="https://github.com/Subhrajit-14/LearnTube-Learning-Platform"
+              demoLink=" https://learntube-learning-platform.onrender.com"              
             />
           </Col>
         </Row>
